@@ -46,6 +46,7 @@ html {
 * remove it after you feel satisfied whit your baseline.
 */
 body {
+  margin: 0;
   background-color: #fff;
   background-size: 100% 1.5rem;
   background-image: -webkit-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
@@ -116,11 +117,11 @@ ul, ol {
 }
 
 ul {
-  list-style: disc;
+  list-style: disc inside;
 }
 
 ol {
-  list-style: decimal;
+  list-style: decimal inside;
 }
 
 li {
