@@ -94,7 +94,7 @@ li {
 
 ul ul,
 ol ol {
-  margin: 0 0 0 4rem;
+  margin: 0 0 0 4em;
 }
 
 dl{
@@ -102,4 +102,15 @@ dl{
 }
 dt{
   font-weight: bold;
+}
+
+/** Quotes */
+blockquote {
+  margin: 0 0 1.5rem 4em;
+  border-left: 5px solid #ccc;
+  padding-left: 10px;
+  line-height: 1.5;
+}
+cite {
+  line-height: 1.5;
 }
