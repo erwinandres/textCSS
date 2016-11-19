@@ -24,6 +24,24 @@ html {
 }
 
 /**
+* Make a "notebook-like" background pattern with
+* background-image and linear-gradients.
+*
+* This is for testing the baseline only. Make your own tests and
+* remove it after you feel satisfied whit your baseline.
+*/
+body {
+  background-color: #fff;
+  background-size: 100% 1.5rem;
+  background-image: -webkit-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+                    -webkit-linear-gradient(#eee .05em, transparent .05em);
+  background-image: -moz-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+                    -moz-linear-gradient(#eee .05em, transparent .05em);
+  background-image: linear-gradient(90deg, transparent 79px, transparent 81px),
+                    linear-gradient(#eee .05rem, transparent .05em);
+}
+
+/**
  * Paragraphs
  *
  * Sets the baseline to a height of 1.5.
@@ -116,12 +134,12 @@ cite {
 }
 
 /** Code */
-pre, code{
+pre, code {
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   font-size: 1em;
   line-height: 1.5;
 }
-code{
+code {
   font-size: .9em;
   background: #eee;
 }
