@@ -128,13 +128,15 @@ ol ol {
   margin: 0 0 0 4em;
 }
 
-dl{
+dl {
   margin-bottom: 1.5rem;
 }
-dt{
+dt {
   font-weight: bold;
 }
-
+dd {
+  margin-left: 4em;
+}
 /** Quotes */
 blockquote {
   margin: 0 0 1.5rem 4em;
