@@ -6,6 +6,18 @@
  */
 
 /**
+ * Mini Reset
+ *
+ * textCSS works better with a good css reset, so if you have
+ * one use it and remove this reset block. However, if you
+ * pefrer not to, you can keep this block.
+ */
+p, h1, h2, h3, h4, h5, h6, pre, ul, ol, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/**
  * Note: Combine this styles with the one in your projects
  * reset file if you are using one.
  */
@@ -61,6 +73,7 @@ p {
  *
  */
  h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
   margin-bottom: 1.5rem;
   font-weight: bold;
 }
@@ -142,6 +155,10 @@ pre, code {
 code {
   font-size: .9em;
   background: #eee;
+}
+pre {
+  background: #eee;
+  margin-bottom: 1.5rem;
 }
 
 /** Links */
