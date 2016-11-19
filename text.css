@@ -20,6 +20,9 @@ p, h1, h2, h3, h4, h5, h6, pre, ul, ol, dl, dt, dd {
 /**
  * Note: Combine this styles with the one in your projects
  * reset file if you are using one.
+ *
+ * A good sans-serif system fonts stack with fallbacks for most
+ * popular operative systems.
  */
 html {
   font-family: -apple-system,
@@ -37,7 +40,7 @@ html {
 
 /**
 * Make a "notebook-like" background pattern with
-* background-image and linear-gradients.
+* background-image and linear-gradient.
 *
 * This is for testing the baseline only. Make your own tests and
 * remove it after you feel satisfied whit your baseline.
@@ -73,7 +76,6 @@ p {
  *
  */
  h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
   margin-bottom: 1.5rem;
   font-weight: bold;
 }
@@ -97,10 +99,12 @@ h4 {
   font-size: 2em;
   line-height: 1.5;
 }
+
 h5 {
   font-size: 1.5em;
   line-height: 1;
 }
+
 h6 {
   font-size: 1em;
   line-height: 1.5;
@@ -131,12 +135,15 @@ ol ol {
 dl {
   margin-bottom: 1.5rem;
 }
+
 dt {
   font-weight: bold;
 }
+
 dd {
   margin-left: 4em;
 }
+
 /** Quotes */
 blockquote {
   margin: 0 0 1.5rem 4em;
@@ -144,22 +151,34 @@ blockquote {
   padding-left: 10px;
   line-height: 1.5;
 }
+
 cite {
   line-height: 1.5;
 }
 
-/** Code */
+/**
+ * Code
+ *
+ * A good monospace font stack.
+ * Gives a light grey background to inine code and pre blocks.
+ * Makes inline code a little smaller.
+ */
 pre, code {
-  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-family: Consolas,
+               Monaco,
+               'Andale Mono',
+               'Ubuntu Mono',
+               monospace;
   font-size: 1em;
   line-height: 1.5;
+  background: #eee;
 }
+
 code {
   font-size: .9em;
-  background: #eee;
 }
+
 pre {
-  background: #eee;
   margin-bottom: 1.5rem;
 }
 
