@@ -51,12 +51,11 @@ body {
   max-width: 740px;
   background-color: #fff;
   background-size: 100% 1.5em;
-  background-image: -webkit-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-                    -webkit-linear-gradient(#eee .05em, transparent .05em);
-  background-image: -moz-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-                    -moz-linear-gradient(#eee .05em, transparent .05em);
-  background-image: linear-gradient(90deg, transparent 79px, transparent 81px),
-                    linear-gradient(#eee .05rem, transparent .05em);
+  background-image: -webkit-linear-gradient(to bottom,rgba(0,170,255,.3) 1px,transparent 1px);
+  background-image: -moz-linear-gradient(to bottom,rgba(0,170,255,.3) 1px,transparent 1px);
+  background-image: linear-gradient(to bottom,rgba(0,170,255,.3) 1px,transparent 1px);
+  background-position: left top;
+  background-repeat: repeat;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
