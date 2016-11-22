@@ -34,7 +34,7 @@ html {
                Cantarell,
                "Helvetica Neue",
                sans-serif;
-  font-size: 140%;
+  font-size: 150%;
   line-height: 1.5;
 }
 
@@ -48,7 +48,7 @@ html {
 body {
   margin: 0 auto;
   width: 85%;
-  max-width: 740px;
+  max-width: 760px;
   background-color: #fff;
   background-size: 100% 1.5em;
   background-image: -webkit-linear-gradient(to bottom,rgba(0,170,255,.3) 1px,transparent 1px);
