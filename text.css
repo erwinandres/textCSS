@@ -165,6 +165,20 @@ cite {
   line-height: 1.5;
 }
 
+/** Others */
+/**
+ * Remove the line-height in superscript and subscript text to
+ * so don't break the rythm.
+ */
+sup, sub {
+  font-size: .75em;
+  line-height: 0;
+}
+
+small {
+  font-size: .8em;
+}
+
 /**
  * Code
  *
