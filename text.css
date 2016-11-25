@@ -38,6 +38,17 @@ html {
   line-height: 1.5;
 }
 
+@media (max-width: 800px) {
+  html {
+    font-size: 125%;
+  }
+}
+
+@media (max-width: 560px) {
+  html {
+    font-size: 100%;
+  }
+}
 /**
 * Make a "notebook-like" background pattern with
 * background-image and linear-gradient.
