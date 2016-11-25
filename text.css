@@ -12,7 +12,7 @@
  * one use it and remove this reset block. However, if you
  * pefrer not to, you can keep this block.
  */
-p, h1, h2, h3, h4, h5, h6, pre, ul, ol, dl, dt, dd {
+p, h1, h2, h3, h4, h5, h6, pre, ul, ol, dl, dt, dd table, th, td{
   margin: 0;
   padding: 0;
 }
@@ -151,6 +151,12 @@ dt {
 
 dd {
   margin-left: 4em;
+}
+
+/** Tables */
+table {
+  width: 100%;
+  border-spacing: 2px 0;
 }
 
 /** Quotes */
