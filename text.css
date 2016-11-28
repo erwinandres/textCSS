@@ -225,6 +225,21 @@ small {
   font-size: .8em;
 }
 
+/** Medium style hr */
+hr {
+  display: block;
+  height: 1.5rem;
+  margin: 1.5rem auto;
+  color: #333;
+  border: 0;
+  text-align: center;
+}
+
+hr:before {
+  content: "···";
+  letter-spacing: 1em;
+}
+
 /**
  * Code
  *
